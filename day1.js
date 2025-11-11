@@ -65,17 +65,11 @@ let d = 5;
 console.log(d != 8);
 
 let e = 5;
-console.log(e == 8);
+let f = 10;
+console.log(e > f);
+console.log(e < f);
 
-let f = 5;
-console.log(f != 8);
-
-let g = 5;
-let h = 10;
-console.log(g > h);
-console.log(g < h);
-
-let name=true;
+let name=true
 if(name){
     console.log("I am Thuvaragan")
 }
