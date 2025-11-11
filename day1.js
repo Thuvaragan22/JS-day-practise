@@ -59,15 +59,17 @@ console.log(Boolean(b))
 
 
 let c = 5;
-console.log(c == 8);
+console.log(Boolean(c == 8));
 
 let d = 5;
-console.log(d != 8);
+console.log(Boolean(d != 8));
+
 
 let e = 5;
 let f = 10;
-console.log(e > f);
-console.log(e < f);
+console.log(Boolean(e > f));
+console.log(Boolean(e < f));
+
 
 let name=true
 if(name){
@@ -85,3 +87,9 @@ if(num1>num2){
 else{
     console.log("wrong")
 }
+
+let x1=false;
+let y1=new Boolean(false);
+console.log(x1==y1);
+console.log(x1===y1);
+
